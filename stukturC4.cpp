@@ -49,4 +49,6 @@ int main()
         cout << "\nUmur : " << mhs[i].umur;
         cout << endl;
     }
+
+    return 0; // Mengindikasikan bahwa program telah berhasil dijalankan
 };
