@@ -20,4 +20,13 @@ int main()
     cin >> mhs.alamat;
     cout << " Umur Mahasiswa : ";
     cin >> mhs.umur;
+
+    cout << endl; // Output stuktur data
+    cout << "NIM : " << mhs.nim;
+    cout << endl;
+    cout << "Nama : " << mhs.nama;
+    cout << endl;
+    cout << "Alamat : " << mhs.alamat;
+    cout << endl;
+    cout << "Umur : " << mhs.umur;
 }
