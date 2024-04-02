@@ -7,3 +7,11 @@ struct DetailAlamat
     string desa;
     string kota;
 };
+
+struct Mahasiswa
+{ // Membuat stuktur variabel mahasiswa
+    string nim;
+    string nama;
+    DetailAlamat alamat;
+    int umur;
+};
