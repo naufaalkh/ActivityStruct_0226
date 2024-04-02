@@ -18,8 +18,8 @@ struct Mahasiswa
 
 int main()
 {
-    Mahasiswa mhs[3];
-    for (int i = 0; i < 3; i++)
+    Mahasiswa mhs[3]; // Membuat array of struct Mahasiswa dengan panjang 3 untuk menyimpan informasi 3 mahasiswa
+    for (int i = 0; i < 3; i++) // Loop untuk mengisi informasi mahasisw
     {
         cout << " Nomor Mahasiswa : ";
         getline(cin, mhs[i].nim);
