@@ -3,13 +3,13 @@
 using namespace std;
 
 struct DetailAlamat
-{ // Membuat stuktur variabel alamat
+{ // Mendefinisikan struktur DetailAlamat untuk menyimpan informasi alamat
     string desa;
     string kota;
 };
 
 struct Mahasiswa
-{ // Membuat stuktur variabel mahasiswa
+{ // Mendefinisikan struktur Mahasiswa untuk menyimpan informasi mahasiswa
     string nim;
     string nama;
     DetailAlamat alamat;
