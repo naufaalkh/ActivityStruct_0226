@@ -15,3 +15,19 @@ struct Mahasiswa
     DetailAlamat alamat;
     int umur;
 };
+
+int main()
+{
+    Mahasiswa mhs;
+    cout << " Nomor Mahasiswa : ";
+    cout << " Nama Mahasiswa : ";
+
+    cout << " Alamat Mahasiswa  " << endl;
+    cout << " \t Nama Desa : ";
+    cin >> mhs.alamat.desa;
+    cout << " \t Nama Kota : ";
+    cin >> mhs.alamat.kota;
+
+    cout << "Umur Mahasiswa :";
+    cin >> mhs.umur;
+}
